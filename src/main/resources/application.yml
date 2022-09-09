@@ -1,0 +1,17 @@
+
+
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/productsDB
+    username: root
+    password: ahmed
+    pool:
+      validation-query: SELECT 1
+
+  main:
+    allow-bean-definition-overriding: true
+
+
+
+  jpa:
+    show-sql: true
