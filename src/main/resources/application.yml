@@ -2,7 +2,7 @@
 
 spring:
   r2dbc:
-    url: r2dbc:mysql://localhost:3306/productsDB
+    url: r2dbc:mysql://mysqldb:3306/productDB
     username: root
     password: ahmed
     pool:
@@ -10,8 +10,6 @@ spring:
 
   main:
     allow-bean-definition-overriding: true
-
-
 
   jpa:
     show-sql: true
